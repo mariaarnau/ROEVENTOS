@@ -59,8 +59,8 @@ h1,h2,h3,h4,h5,h6{
   margin:0;
   font-family: var(--font-heading);
   text-transform: uppercase;
-  letter-spacing: 0;
-  font-weight:700;
+  letter-spacing: .01em;
+  font-weight:500;
   line-height:1.05;
 }
 
@@ -257,7 +257,7 @@ body:not([data-page="home"]) .site-header{ background: rgba(10,10,10,.92); backd
 .hero-content .eyebrow{ color: var(--red-light); }
 .hero h1{
   font-family: var(--font-display);
-  font-weight: 800;
+  font-weight: 500;
   font-size: clamp(2.4rem, 7vw, 5.6rem);
   line-height: 0.98;
   margin-top: 14px;
