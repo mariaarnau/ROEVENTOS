@@ -18,7 +18,7 @@
   --off-white: #f4f3f1;
   --white: #ffffff;
 
-  --font-display: 'Roboto Condensed', 'Barlow Condensed', sans-serif;
+  --font-display: 'Unbounded', 'Roboto Condensed', sans-serif;
   --font-heading: 'Roboto Condensed', 'Barlow Condensed', sans-serif;
   --font-body: 'Barlow', sans-serif;
   --font-script: 'Mr Dafoe', cursive;
@@ -59,9 +59,9 @@ h1,h2,h3,h4,h5,h6{
   margin:0;
   font-family: var(--font-heading);
   text-transform: uppercase;
-  letter-spacing: -.01em;
+  letter-spacing: 0;
   font-weight:700;
-  line-height:1.02;
+  line-height:1.05;
 }
 
 .eyebrow{
@@ -257,8 +257,9 @@ body:not([data-page="home"]) .site-header{ background: rgba(10,10,10,.92); backd
 .hero-content .eyebrow{ color: var(--red-light); }
 .hero h1{
   font-family: var(--font-display);
-  font-size: clamp(2.8rem, 8.5vw, 7.2rem);
-  line-height: 0.82;
+  font-weight: 800;
+  font-size: clamp(2.4rem, 7vw, 5.6rem);
+  line-height: 0.98;
   margin-top: 14px;
   max-width: 1000px;
 }
