@@ -272,6 +272,9 @@ body:not([data-page="home"]) .site-header{ background: rgba(10,10,10,.92); backd
   display:flex; align-items:center; gap: 28px; flex-wrap:wrap;
   opacity:.65; font-family: var(--font-heading); text-transform:uppercase; letter-spacing:.15em; font-size:.72rem;
 }
+.hero-sponsors-logos{ align-items:center; opacity:1; }
+.hero-sponsors-logos span{ opacity:.65; }
+.collab-logos-img{ height: 40px; width:auto; }
 
 .hero--inner{ min-height: 62vh; align-items:flex-end; }
 .hero--inner .hero-content{ padding: 150px 0 70px; }
