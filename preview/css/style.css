@@ -254,6 +254,23 @@ body:not([data-page="home"]) .site-header{ background: rgba(10,10,10,.92); backd
   width:100%;
   padding: 140px 0 90px;
 }
+.hero-watermark{
+  position:absolute;
+  left:0; right:0; top:50%;
+  transform: translateY(-50%);
+  z-index:1;
+  pointer-events:none;
+  text-align:center;
+  white-space:nowrap;
+  font-family: var(--font-display);
+  font-size: clamp(5rem, 16vw, 13rem);
+  line-height:1;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255,255,255,.16);
+  text-transform:uppercase;
+  letter-spacing:.02em;
+}
+@media (max-width: 900px){ .hero-watermark{ display:none; } }
 .hero-content .eyebrow{ color: var(--red-light); }
 .hero h1{
   font-family: var(--font-display);
