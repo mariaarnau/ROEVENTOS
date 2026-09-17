@@ -18,9 +18,10 @@
   --off-white: #f4f3f1;
   --white: #ffffff;
 
-  --font-display: 'Anton', 'Barlow Condensed', sans-serif;
-  --font-heading: 'Barlow Condensed', sans-serif;
+  --font-display: 'Roboto Condensed', 'Barlow Condensed', sans-serif;
+  --font-heading: 'Roboto Condensed', 'Barlow Condensed', sans-serif;
   --font-body: 'Barlow', sans-serif;
+  --font-script: 'Mr Dafoe', cursive;
 
   --container: 1240px;
   --radius: 14px;
@@ -109,8 +110,8 @@ h1,h2,h3,h4,h5,h6{
 .section-head.center{ margin-left:auto; margin-right:auto; text-align:center; }
 
 .script-tag{
-  font-family: 'Caveat', cursive;
-  font-size: 1.6rem;
+  font-family: var(--font-script);
+  font-size: 2rem;
   color: var(--red);
 }
 .section-dark .script-tag, .hero .script-tag{ color: var(--red-light); }
