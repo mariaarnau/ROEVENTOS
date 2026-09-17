@@ -257,9 +257,10 @@ body:not([data-page="home"]) .site-header{ background: rgba(10,10,10,.92); backd
 .hero-content .eyebrow{ color: var(--red-light); }
 .hero h1{
   font-family: var(--font-display);
-  font-size: clamp(2.6rem, 7vw, 5.6rem);
+  font-size: clamp(2.8rem, 8.5vw, 7.2rem);
+  line-height: 0.82;
   margin-top: 14px;
-  max-width: 900px;
+  max-width: 1000px;
 }
 .hero p.lead{
   margin-top: 20px;
