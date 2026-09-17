@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- SEO: mantener URL /eventos/, title "Eventos – Ro Eventos". Sustituir el
+     CPT "events" (valencia-basket-cup, valencia-soccer-cup, voley-cup,
+     futsal-cup...) por fichas propias de estos 4 torneos 2027, cada una con
+     su slug + schema.org/Event (startDate, endDate, location, offers). -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[MAQUETA] Eventos 2027 — Ro Eventos</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="eventos">
+
+<div data-include="header"></div>
+
+<section class="hero hero--inner" style="background-image:url('images/eventos-hero-medals.jpg')">
+  <div class="container hero-content">
+    <span class="eyebrow">Temporada 2027</span>
+    <h1>Eventos</h1>
+    <p class="lead">Avalados por más de 20 años de experiencia organizando eventos deportivos con la colaboración de los mejores clubes y asociaciones españolas. Fechas, sedes y precios oficiales de nuestros 4 torneos de 2027.</p>
+    <div class="breadcrumb"><a href="index.html">Home</a> / Eventos</div>
+  </div>
+</section>
+
+<!-- FORM RAPIDO -->
+<section class="section--tight section-off">
+  <div class="container">
+    <div class="split split--form reveal">
+      <div>
+        <span class="eyebrow">¿Buscas más información?</span>
+        <h2 style="font-family:var(--font-display); font-size:clamp(1.6rem,3vw,2.1rem); margin-top:10px;">Te enviamos el dossier</h2>
+        <p style="color:var(--gray-700); margin-top:14px;">Cuéntanos tu equipo y torneo de interés. Te respondemos en menos de 24h con disponibilidad, precios y el dossier en PDF.</p>
+      </div>
+      <form class="contact-form" data-preview-form style="background:var(--white); padding:28px; border-radius: var(--radius); box-shadow: var(--shadow-card);">
+        <div class="form-row-2">
+          <input type="text" placeholder="¿Tu nombre?*" required>
+          <input type="tel" placeholder="Nº de teléfono">
+        </div>
+        <input type="email" placeholder="Email*" required>
+        <select style="padding:16px 20px;border-radius:12px;border:1px solid var(--gray-200);font-size:.95rem;">
+          <option>Torneo de interés</option>
+          <option>Valencia Basket Cup — 3-5 enero 2027</option>
+          <option>Valencia Basket International Cup — 25-28 marzo 2027</option>
+          <option>Valencia Basket Summer Cup — 25-27 junio 2027</option>
+          <option>Cullera Futsal Cup — 11-13 junio 2027</option>
+        </select>
+        <button type="submit" class="btn btn-primary btn-block">Contactar</button>
+        <div class="form-success">¡Gracias! (maqueta de demostración, no se envía ningún dato real)</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- GRID DE TORNEOS -->
+<section class="section section-off">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Calendario 2027</span>
+      <h2>Nuestros torneos</h2>
+      <p>Consulta disponibilidad y trae a tu equipo. Plazas limitadas.</p>
+    </div>
+
+    <div class="event-grid">
+
+      <!-- VALENCIA BASKET CUP -->
+      <article class="event-card reveal" id="valencia-basket-cup" style="scroll-margin-top:110px;">
+        <div class="event-media">
+          <img src="images/event-basket-cup.jpg" alt="Valencia Basket Cup 2027" loading="lazy">
+          <span class="event-date-badge">3–5 ENE 2027</span>
+          <span class="event-sport-badge">Basket</span>
+          <span class="event-title-overlay">Valencia Basket Cup</span>
+        </div>
+        <div class="event-body">
+          <div class="event-meta-row">
+            <div class="event-meta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-9.3-9.3A5.5 5.5 0 0112 5a5.5 5.5 0 019.3 6.7C19 15.8 12 21 12 21z"/></svg>
+              Roig Arena &amp; Fuente de San Luis, Valencia
+            </div>
+            <div class="event-meta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+              3 días de competición
+            </div>
+          </div>
+          <ul class="event-highlights">
+            <li>Pista central en Fuente de San Luis con capacidad para 8.000 espectadores</li>
+            <li>Partido de exhibición en el nuevo Roig Arena, sede profesional de Valencia Basket</li>
+            <li>Ceremonias de apertura y clausura + entrega de trofeos</li>
+            <li>Descuentos de grupo para Euroliga, ACB y Liga Femenina; city tour, Ciudad de las Artes y Bioparc</li>
+          </ul>
+          <button class="event-detail-toggle">Precios y programa
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="event-detail-panel">
+            <div class="event-detail-inner">
+              <h5>Precios jugador/entrenador (pensión completa)</h5>
+              <div class="event-price-grid">
+                <div class="price-box"><span>Alojamiento Silver</span><strong>275€</strong></div>
+                <div class="price-box"><span>Alojamiento Gold</span><strong>315€</strong></div>
+              </div>
+              <h5>Programa</h5>
+              <ul class="program-list">
+                <li><b>3 enero</b> Llegada + ceremonia de apertura</li>
+                <li><b>4 enero</b> Fase de grupos y eliminatorias</li>
+                <li><b>5 enero</b> Finales, consolación y entrega de trofeos</li>
+              </ul>
+              <p style="font-size:.85rem; color:var(--gray-700); margin-top:12px;">Acompañantes desde 275€ · Pre-inscripción antes del 1 de julio: transporte y entrenador gratuitos, plan de pagos flexible.</p>
+            </div>
+          </div>
+          <div class="event-price-row">
+            <div class="event-price"><small>Inscripción desde</small><strong>275€ / equipo</strong></div>
+            <div class="event-actions">
+              <a href="contacto.html" class="btn btn-primary btn-small">Inscribir equipo</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- VALENCIA BASKET INTERNATIONAL CUP -->
+      <article class="event-card reveal reveal-delay-1" id="valencia-basket-international-cup" style="scroll-margin-top:110px;">
+        <div class="event-media">
+          <img src="images/event-international-cup.jpg" alt="Valencia Basket International Cup 2027" loading="lazy">
+          <span class="event-date-badge">25–28 MAR 2027</span>
+          <span class="event-sport-badge">Basket · Internacional</span>
+          <span class="event-title-overlay">Basket International Cup</span>
+        </div>
+        <div class="event-body">
+          <div class="event-meta-row">
+            <div class="event-meta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-9.3-9.3A5.5 5.5 0 0112 5a5.5 5.5 0 019.3 6.7C19 15.8 12 21 12 21z"/></svg>
+              Fuente de San Luis, Valencia
+            </div>
+            <div class="event-meta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 3a2.83 2.83 0 114 4L7.5 20.5 2 22l1.5-5.5z"/></svg>
+              8.000 espectadores
+            </div>
+          </div>
+          <ul class="event-highlights">
+            <li>Torneo oficial internacional — equipos de toda Europa y América conviven en Valencia</li>
+            <li>1 pista central, capacidad para 8.000 espectadores</li>
+            <li>Baloncesto profesional de exhibición en el Roig Arena</li>
+            <li>Descuentos de grupo Euroliga/ACB/Liga Femenina y experiencias en la ciudad</li>
+          </ul>
+          <button class="event-detail-toggle">Precios y programa
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="event-detail-panel">
+            <div class="event-detail-inner">
+              <h5>Precios jugador/entrenador (pensión completa)</h5>
+              <div class="event-price-grid">
+                <div class="price-box"><span>Alojamiento Silver</span><strong>375€</strong></div>
+                <div class="price-box"><span>Alojamiento Gold</span><strong>395€</strong></div>
+              </div>
+              <h5>Programa</h5>
+              <ul class="program-list">
+                <li><b>25 marzo</b> Llegada y ceremonia de apertura</li>
+                <li><b>26 marzo</b> Fase de grupos</li>
+                <li><b>27 marzo</b> Fase de grupos y eliminatorias</li>
+                <li><b>28 marzo</b> Finales, consolación y entrega de trofeos</li>
+              </ul>
+              <p style="font-size:.85rem; color:var(--gray-700); margin-top:12px;">Acompañantes desde 255€ · Pre-inscripción antes del 1 de octubre: transporte y entrenador gratuitos, plan de pagos flexible.</p>
+            </div>
+          </div>
+          <div class="event-price-row">
+            <div class="event-price"><small>Inscripción desde</small><strong>295€ / equipo</strong></div>
+            <div class="event-actions">
+              <a href="contacto.html" class="btn btn-primary btn-small">Inscribir equipo</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- VALENCIA BASKET SUMMER CUP -->
+      <article class="event-card reveal" id="valencia-basket-summer-cup" style="scroll-margin-top:110px;">
+        <div class="event-media">
+          <img src="images/event-summer-cup.jpg" alt="Valencia Basket Summer Cup 2027" loading="lazy">
+          <span class="event-date-badge">25–27 JUN 2027</span>
+          <span class="event-sport-badge">Basket · Verano</span>
+          <span class="event-title-overlay">Basket Summer Cup</span>
+        </div>
+        <div class="event-body">
+          <div class="event-meta-row">
+            <div class="event-meta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-9.3-9.3A5.5 5.5 0 0112 5a5.5 5.5 0 019.3 6.7C19 15.8 12 21 12 21z"/></svg>
+              Fuente de San Luis, junto a L'Alqueria del Basket
+            </div>
+            <div class="event-meta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+              3 días de competición
+            </div>
+          </div>
+          <ul class="event-highlights">
+            <li>Cierre de temporada en la mejor instalación de baloncesto de Europa</li>
+            <li>1 pista central, capacidad para 8.000 espectadores</li>
+            <li>Ambiente internacional entre equipos + ceremonias de apertura y clausura</li>
+            <li>City tour, Ciudad de las Artes y Bioparc como experiencias incluidas</li>
+          </ul>
+          <button class="event-detail-toggle">Precios y programa
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="event-detail-panel">
+            <div class="event-detail-inner">
+              <h5>Precios jugador/entrenador (pensión completa)</h5>
+              <div class="event-price-grid">
+                <div class="price-box"><span>Alojamiento Silver</span><strong>275€</strong></div>
+                <div class="price-box"><span>Alojamiento Gold</span><strong>315€</strong></div>
+              </div>
+              <h5>Programa</h5>
+              <ul class="program-list">
+                <li><b>25 junio</b> Llegada, apertura e inicio de competición</li>
+                <li><b>26 junio</b> Fase de grupos y eliminatorias</li>
+                <li><b>27 junio</b> Finales, consolación y entrega de trofeos</li>
+              </ul>
+              <p style="font-size:.85rem; color:var(--gray-700); margin-top:12px;">Acompañantes desde 155€ · Pre-inscripción antes del 30 de septiembre: transporte y entrenador gratuitos, plan de pagos flexible.</p>
+            </div>
+          </div>
+          <div class="event-price-row">
+            <div class="event-price"><small>Inscripción desde</small><strong>275€ / equipo</strong></div>
+            <div class="event-actions">
+              <a href="contacto.html" class="btn btn-primary btn-small">Inscribir equipo</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- CULLERA FUTSAL CUP -->
+      <article class="event-card reveal reveal-delay-1" id="cullera-futsal-cup" style="scroll-margin-top:110px;">
+        <div class="event-media">
+          <img src="images/event-futsal-cup.jpg" alt="Cullera Futsal Cup 2027" loading="lazy">
+          <span class="event-date-badge">11–13 JUN 2027</span>
+          <span class="event-sport-badge">Futsal</span>
+          <span class="event-title-overlay">Cullera Futsal Cup</span>
+        </div>
+        <div class="event-body">
+          <div class="event-meta-row">
+            <div class="event-meta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-9.3-9.3A5.5 5.5 0 0112 5a5.5 5.5 0 019.3 6.7C19 15.8 12 21 12 21z"/></svg>
+              Cullera, Sueca, Tavernes, Sollana y Almussafes
+            </div>
+            <div class="event-meta">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+              3 días de competición
+            </div>
+          </div>
+          <ul class="event-highlights">
+            <li>Despedida de temporada: futsal, playa mediterránea y ambiente entre equipos</li>
+            <li>Instalaciones deportivas municipales en 5 poblaciones cercanas a Cullera</li>
+            <li>Entrada incluida a Aquópolis Cullera, el mayor parque acuático de Valencia</li>
+            <li>Descuentos en Karting Les Palmeres, KSUP Adventures y Paintball Gandia</li>
+          </ul>
+          <button class="event-detail-toggle">Precios y programa
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="event-detail-panel">
+            <div class="event-detail-inner">
+              <h5>Precio jugador/entrenador (pensión completa, hotel 3-4*, 2 noches)</h5>
+              <div class="event-price-grid">
+                <div class="price-box" style="grid-column:1 / -1;"><span>Alojamiento 2 noches</span><strong>295€</strong></div>
+              </div>
+              <h5>Programa</h5>
+              <ul class="program-list">
+                <li><b>11 junio</b> Llegada + ceremonia de apertura + 1ª jornada</li>
+                <li><b>12 junio</b> Fase de grupos y eliminatorias</li>
+                <li><b>13 junio</b> Finales, consolación y entrega de trofeos</li>
+              </ul>
+              <p style="font-size:.85rem; color:var(--gray-700); margin-top:12px;">Acompañantes desde 255€ (2 noches pensión completa + entrada a los partidos) · Pre-inscripción del 1 septiembre al 1 febrero: transporte y entrenador gratuitos, financiación y rifas.</p>
+            </div>
+          </div>
+          <div class="event-price-row">
+            <div class="event-price"><small>Inscripción desde</small><strong>175€ / equipo</strong></div>
+            <div class="event-actions">
+              <a href="contacto.html" class="btn btn-primary btn-small">Inscribir equipo</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- PATROCINADORES -->
+<section class="section--tight section-dark">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="justify-content:center;">Con la colaboración de</span>
+      <h2 style="font-size:1.4rem;">Instituciones y patrocinadores</h2>
+    </div>
+    <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:40px; opacity:.7; font-family:var(--font-heading); text-transform:uppercase; letter-spacing:.12em; font-size:.85rem;">
+      <span>Visit Valencia</span>
+      <span>L'Alqueria del Basket</span>
+      <span>Roig Arena</span>
+      <span>Halcón Viajes</span>
+      <span>Bellmont Padel Academy</span>
+      <span>Fundación Trinidad Alfonso</span>
+    </div>
+  </div>
+</section>
+
+<div data-include="footer"></div>
+
+<script src="js/include.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
