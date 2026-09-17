@@ -59,9 +59,9 @@ h1,h2,h3,h4,h5,h6{
   margin:0;
   font-family: var(--font-heading);
   text-transform: uppercase;
-  letter-spacing: .02em;
+  letter-spacing: -.01em;
   font-weight:700;
-  line-height:1.08;
+  line-height:1.02;
 }
 
 .eyebrow{
@@ -273,6 +273,7 @@ body:not([data-page="home"]) .site-header{ background: rgba(10,10,10,.92); backd
   display:flex; align-items:center; gap: 28px; flex-wrap:wrap;
   opacity:.65; font-family: var(--font-heading); text-transform:uppercase; letter-spacing:.15em; font-size:.72rem;
 }
+.hero-signature{ display:block; margin: -14px 0 20px; font-size: 3rem; }
 .hero-sponsors-logos{ align-items:center; opacity:1; }
 .hero-sponsors-logos span{ opacity:.65; }
 .collab-logos-img{ height: 40px; width:auto; }
