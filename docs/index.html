@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!--
+  ============================================================================
+  NOTA PARA LA MIGRACIÓN A WORDPRESS (roeventos.com)
+  ============================================================================
+  Esta es una MAQUETA ESTÁTICA de previsualización. No toca el WordPress real.
+  Cuando se apruebe el diseño y se traslade el contenido a WordPress, hay que
+  RESPETAR las URLs y metadatos ya indexados por Google para no perder SEO:
+
+  URLs actuales a mantener (o redirigir 301 si cambian de slug):
+    /                         Title: "Ro Eventos – Organización de eventos
+                              deportivos en la Comunidad Valenciana"
+    /conocenos/               Title: "Conócenos – Ro Eventos"
+    /deportes/                Title: "Deportes – Ro Eventos"
+    /eventos/                 Title: "Eventos – Ro Eventos"
+    /blog/                    Title: "Blog – Ro Eventos"
+    /contacto/                Title: "Contacto – Ro Eventos"
+
+  Portfolio items (deportes) — plantilla Enfold, revisar si se conservan:
+    /portfolio-item/basket/  /portfolio-item/futbol/
+    /portfolio-item/volleyball/  /portfolio-item/futsal/
+
+  Fichas de evento (CPT "events") — sustituir por los 4 torneos reales 2027:
+    /events/valencia-basket-cup/   /events/valencia-soccer-cup/
+    /events/voley-cup/             /events/futsal-cup/
+    /events/1er-premio-empren-esport/
+  Taxonomía: /events_category/{basket|futbol|futsal|volleyball}/
+
+  Entradas de blog indexadas (mantener slug o 301 al nuevo):
+    /2023/04/01/semana-santa-de-records-deportivos-en-valencia/
+    /2023/03/01/nuestro-torneo-de-maxibaloncesto-internacional-premiado-.../
+    /2023/01/27/por-cuarto-ano-consecutivo-volvemos-a-ser-finalistas-.../
+    /2023/01/27/confirmada-la-sede-de-marina-dor-para-el-desarrollo-.../
+    /2023/01/01/la-valencia-basket-cup-estrenara-2023-en-lalqueria/
+    /2022/11/01/valencia-internacional-cup-1er-premio-empren-esport/
+    /2022/10/04/la-capital-del-turia-acogio-esta-semana-santa-.../
+    /2022/09/21/basketball-tryouts-spain/
+  Taxonomía blog: /category/{basket|futbol|futsal|volley}/
+
+  Datos NAP a mantener consistentes (Google Business/Schema LocalBusiness):
+    CC Las Américas, Avinguda al Vedat, 180, Torrent, Valencia
+    info@roeventos.com · +34 670 38 64 18
+
+  Pendiente para cuando se pase a WP: meta description por página, schema.org
+  (Organization + Event por torneo), sitemap.xml, hreflang si se traduce a
+  EN (los dossiers de los torneos ya están en inglés para público internacional).
+  ============================================================================
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[MAQUETA] Ro Eventos — Organización de eventos deportivos en la Comunidad Valenciana</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+<div data-include="header"></div>
+
+<!-- HERO -->
+<section class="hero" style="background-image:url('images/hero-home.jpg')">
+  <div class="hero-bg" style="background-image:url('images/hero-home.jpg')"></div>
+  <div class="container hero-content">
+    <span class="eyebrow">R&amp;O Eventos · Organización de eventos deportivos desde el año 2000</span>
+    <h1>R&amp;O Eventos:<br>el deporte que conecta al mundo, organizado en Valencia</h1>
+    <p class="lead">Torneos, campus y eventos deportivos internacionales de baloncesto, fútbol, fútbol sala y vóley. Más de 20 años llevando a equipos de toda Europa a competir, viajar y vivir el deporte en la Comunitat Valenciana.</p>
+    <div class="hero-actions">
+      <a href="eventos.html" class="btn btn-primary">Ver próximos torneos</a>
+      <a href="contacto.html" class="btn btn-outline">Contactar</a>
+    </div>
+    <div class="hero-sponsors">
+      <span>Colaboran con nosotros</span>
+      <span>Visit Valencia</span>
+      <span>Turisme Comunitat Valenciana</span>
+      <span>Federaciones deportivas</span>
+    </div>
+  </div>
+</section>
+
+<!-- SPORTS TEASER -->
+<section class="sports-grid">
+  <a class="sport-tile reveal" href="deportes.html#futbol">
+    <img src="images/sport-futbol.jpg" alt="Fútbol R&O Eventos" loading="lazy">
+    <div class="sport-body">
+      <span class="sport-index">01</span>
+      <h3>Fútbol</h3>
+      <span class="sport-link">Ver torneos
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </span>
+    </div>
+  </a>
+  <a class="sport-tile reveal reveal-delay-1" href="deportes.html#basket">
+    <img src="images/sport-basket.jpg" alt="Baloncesto R&O Eventos" loading="lazy">
+    <div class="sport-body">
+      <span class="sport-index">02</span>
+      <h3>Basket</h3>
+      <span class="sport-link">Ver torneos
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </span>
+    </div>
+  </a>
+  <a class="sport-tile reveal reveal-delay-2" href="deportes.html#volleyball">
+    <img src="images/sport-volleyball.jpg" alt="Voleibol R&O Eventos" loading="lazy">
+    <div class="sport-body">
+      <span class="sport-index">03</span>
+      <h3>Volleyball</h3>
+      <span class="sport-link">Ver torneos
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </span>
+    </div>
+  </a>
+  <a class="sport-tile reveal reveal-delay-3" href="deportes.html#futsal">
+    <img src="images/sport-futsal.jpg" alt="Fútbol sala R&O Eventos" loading="lazy">
+    <div class="sport-body">
+      <span class="sport-index">04</span>
+      <h3>Futsal</h3>
+      <span class="sport-link">Ver torneos
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </span>
+    </div>
+  </a>
+</section>
+
+<!-- NUESTRA HISTORIA -->
+<section class="section section-off">
+  <div class="container split">
+    <div class="split-media reveal">
+      <img src="images/team-staff.jpg" alt="Equipo de R&O Eventos" loading="lazy">
+      <div class="badge-float">
+        <strong>+20</strong>
+        <span>Años de experiencia</span>
+      </div>
+    </div>
+    <div class="reveal reveal-delay-1">
+      <span class="eyebrow">Nuestra historia</span>
+      <h2>Del primer torneo al referente nacional</h2>
+      <p>Somos una empresa dedicada a la gestión y organización de eventos deportivos. Desde el año 2000 y tras más de 20 años de experiencia nos hemos consolidado como uno de los referentes nacionales en la organización de eventos deportivos internacionales. Torneos, campus, training stages y gestión de instalaciones deportivas para clubes de toda Europa, con el mayor rigor y profesionalidad por parte de nuestro equipo.</p>
+      <div class="hero-actions" style="margin-top:28px;">
+        <a href="conocenos.html" class="btn btn-dark">Conócenos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARCAMOS LA DIFERENCIA -->
+<section class="section section-dark" style="background-image:linear-gradient(180deg, rgba(10,10,10,.55), rgba(10,10,10,.95)), url('images/stats-photocall.jpg'); background-size:cover; background-position:center;">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="justify-content:center;">Marcamos la diferencia</span>
+      <h2>Más de dos décadas moviendo el deporte español</h2>
+      <p style="margin-left:auto;margin-right:auto;">Trabajamos con los mejores clubes nacionales e internacionales en baloncesto, fútbol, futsal, pádel, vóley y softball.</p>
+    </div>
+    <div class="stats-band">
+      <div class="stat-item reveal">
+        <span class="stat-number" data-count="200" data-suffix="+">0</span>
+        <span class="stat-label">Torneos realizados</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-1">
+        <span class="stat-number" data-count="120" data-suffix="+">0</span>
+        <span class="stat-label">Campus organizados</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-2">
+        <span class="stat-number" data-count="12000" data-suffix="+">0</span>
+        <span class="stat-label">Equipos participantes</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-3">
+        <span class="stat-number" data-count="120000" data-suffix="+">0</span>
+        <span class="stat-label">Jugadores y jugadoras</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HISTORIAS RECIENTES -->
+<section class="section section-off">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Historias recientes</span>
+      <h2>Nuestros últimos eventos y competiciones</h2>
+      <p>Un vistazo a la actualidad del club y de nuestros torneos.</p>
+    </div>
+    <div class="card-grid">
+      <a class="blog-card reveal" href="blog.html" style="background:var(--white); border-color: var(--gray-200);">
+        <div class="blog-media"><img src="images/blog-semana-santa.jpg" alt="Semana Santa de récords deportivos en Valencia" loading="lazy"></div>
+        <div class="blog-body">
+          <div class="tag-row"><span class="tag">Basket</span></div>
+          <h3 style="color:var(--near-black);">Semana Santa de récords deportivos en Valencia</h3>
+          <span class="blog-more">Leer más
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </div>
+      </a>
+      <a class="blog-card reveal reveal-delay-1" href="blog.html" style="background:var(--white); border-color: var(--gray-200);">
+        <div class="blog-media"><img src="images/blog-empren-stage.jpg" alt="Torneo de Maxibaloncesto Internacional premiado" loading="lazy"></div>
+        <div class="blog-body">
+          <div class="tag-row"><span class="tag">Basket</span><span class="tag">Fútbol</span><span class="tag">Futsal</span></div>
+          <h3 style="color:var(--near-black);">Nuestro Torneo de Maxibaloncesto Internacional, premiado con el Empren Esport Impulso</h3>
+          <span class="blog-more">Leer más
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </div>
+      </a>
+      <a class="blog-card reveal reveal-delay-2" href="blog.html" style="background:var(--white); border-color: var(--gray-200);">
+        <div class="blog-media"><img src="images/blog-empren-podium.jpg" alt="Finalistas de los premios Empren Esport" loading="lazy"></div>
+        <div class="blog-body">
+          <div class="tag-row"><span class="tag">Basket</span><span class="tag">Volley</span></div>
+          <h3 style="color:var(--near-black);">Por cuarto año consecutivo, finalistas de los premios Empren Esport</h3>
+          <span class="blog-more">Leer más
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- PROXIMOS EVENTOS -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Temporada 2027</span>
+      <h2>Próximos eventos</h2>
+      <p>Consulta disponibilidad y trae a tu equipo. Fechas, sedes y precios confirmados.</p>
+    </div>
+    <div class="event-teaser-grid">
+      <a class="event-teaser reveal" href="eventos.html#valencia-basket-cup">
+        <span class="et-date">3–5 enero 2027</span>
+        <h4>Valencia Basket Cup</h4>
+        <span class="et-venue">Pabellones de Valencia</span>
+        <span class="et-price">Consulta disponibilidad</span>
+      </a>
+      <a class="event-teaser reveal reveal-delay-1" href="eventos.html#valencia-basket-international-cup">
+        <span class="et-date">25–28 marzo 2027</span>
+        <h4>Valencia International Cup</h4>
+        <span class="et-venue">Pabellones de Valencia</span>
+        <span class="et-price">Consulta disponibilidad</span>
+      </a>
+      <a class="event-teaser reveal reveal-delay-2" href="eventos.html#valencia-basket-summer-cup">
+        <span class="et-date">25–27 junio 2027</span>
+        <h4>Basket Summer Cup</h4>
+        <span class="et-venue">Pabellones de Valencia</span>
+        <span class="et-price">Consulta disponibilidad</span>
+      </a>
+      <a class="event-teaser reveal reveal-delay-3" href="eventos.html#cullera-futsal-cup">
+        <span class="et-date">11–13 junio 2027</span>
+        <h4>Cullera Futsal Cup</h4>
+        <span class="et-venue">Cullera y municipios cercanos</span>
+        <span class="et-price">Consulta disponibilidad</span>
+      </a>
+    </div>
+    <div style="text-align:center; margin-top:48px;">
+      <a href="eventos.html" class="btn btn-outline">Ver todos los torneos</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA COMPITE -->
+<section class="section section-red">
+  <div class="container cta-banner">
+    <div class="reveal">
+      <span class="script-tag">Deporte en estado puro</span>
+      <h2>Compite al más alto nivel</h2>
+      <p style="margin-top:14px; max-width:480px;">Déjanos tu email y te enviamos disponibilidad, precios y el dossier del torneo que más te interese.</p>
+    </div>
+    <div class="reveal reveal-delay-1">
+      <form class="cta-form" data-preview-form>
+        <input type="email" placeholder="Tu email de contacto" required>
+        <button type="submit" class="btn btn-dark">Contactar</button>
+      </form>
+      <div class="form-success" style="margin-top:16px;">¡Gracias! (maqueta de demostración, no se envía ningún dato real)</div>
+    </div>
+  </div>
+</section>
+
+<!-- NUESTROS SITIOS WEB -->
+<section class="section section-off">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="justify-content:center;">Nuestro ecosistema</span>
+      <h2>Nuestros sitios web</h2>
+      <p style="margin-left:auto;margin-right:auto;">Si quieres conocernos un poco mejor, visita nuestras webs y redes.</p>
+    </div>
+    <div class="site-grid">
+      <a class="site-tile reveal" href="https://www.valenciabasketcup.com/" target="_blank" rel="noopener">
+        <img src="images/site-basket.jpg" alt="Valencia Basket Cup">
+        <div><h4>Basket</h4><span>Los mejores clubes e instalaciones</span></div>
+      </a>
+      <a class="site-tile reveal reveal-delay-1" href="https://www.valenciasoccercup.com/" target="_blank" rel="noopener">
+        <img src="images/site-futbol.jpg" alt="Valencia Soccer Cup">
+        <div><h4>Fútbol</h4><span>Los campeonatos más grandes de la C. Valenciana</span></div>
+      </a>
+      <a class="site-tile reveal reveal-delay-2" href="https://www.resultados.valenciabasketcup.com/" target="_blank" rel="noopener">
+        <img src="images/site-resultados.jpg" alt="Resultados Valencia Basket Cup">
+        <div><h4>Resultados</h4><span>Resultados Valencia Basket Cup</span></div>
+      </a>
+      <a class="site-tile reveal reveal-delay-3" href="https://www.instagram.com/roeventos_/" target="_blank" rel="noopener">
+        <img src="images/site-instagram.jpg" alt="Instagram R&O Eventos">
+        <div><h4>Instagram</h4><span>Redes sociales y comunicaciones</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div data-include="footer"></div>
+
+<script src="js/include.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
