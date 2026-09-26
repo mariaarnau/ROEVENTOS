@@ -310,7 +310,7 @@ body:not([data-page="home"]) .site-header{ background: rgba(10,10,10,.92); backd
 /* ---------- Sports grid (Home teaser + Deportes page) ---------- */
 .sports-grid{
   display:grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
 .sport-tile{
   position:relative;
@@ -656,7 +656,7 @@ body:not([data-page="home"]) .site-header{ background: rgba(10,10,10,.92); backd
 .reveal-delay-4{ transition-delay:.4s; }
 
 /* ---------- Deportes page full columns ---------- */
-.deportes-columns{ display:grid; grid-template-columns: repeat(4, 1fr); min-height: calc(100vh - 0px); }
+.deportes-columns{ display:grid; grid-template-columns: repeat(5, 1fr); min-height: calc(100vh - 0px); }
 .deportes-columns .sport-tile{ min-height: 100%; }
 
 /* ---------- Tabs (kept for compat / not used but styled) ---------- */
