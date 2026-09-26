@@ -713,6 +713,9 @@ body:not([data-page="home"]) .site-header{ background: rgba(10,10,10,.92); backd
   .event-price-grid{ grid-template-columns: 1fr; }
 }
 
+.training-gallery{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:18px; }
+@media (max-width: 700px){ .training-gallery{ grid-template-columns:1fr; } }
+
 /* ---------- Photo strip (galería con scroll automático) ---------- */
 .photo-strip{
   grid-column: 1/-1;
