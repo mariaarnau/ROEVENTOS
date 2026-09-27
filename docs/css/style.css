@@ -629,6 +629,8 @@ body[data-page="home"] .hero-signature{ font-size: 3rem; }
 
 /* ---------- Site links grid ---------- */
 .site-grid{ display:grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.site-grid.social-grid{ grid-template-columns: repeat(5, 1fr); }
+@media (max-width: 900px){ .site-grid.social-grid{ grid-template-columns: repeat(3, 1fr); } }
 .site-tile{
   position:relative; min-height: 220px; border-radius: var(--radius); overflow:hidden;
   display:flex; align-items:flex-end; color:var(--white); padding: 26px;
