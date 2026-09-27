@@ -299,7 +299,17 @@ body:not([data-page="home"]) .site-header{ background: rgba(10,10,10,.92); backd
 
 body[data-page="home"] .hero{ align-items:center; }
 body[data-page="home"] .hero-content{ text-align:center; padding: 160px 0; }
-body[data-page="home"] .hero h1{ max-width:none; font-size: clamp(3.4rem, 10vw, 8.5rem); }
+body[data-page="home"] .hero h1{
+  max-width:840px; margin-left:auto; margin-right:auto;
+  font-family:'Fraunces', serif;
+  font-weight:600;
+  font-optical-sizing:auto;
+  text-transform:none;
+  letter-spacing:-.01em;
+  line-height:1.05;
+  font-size: clamp(2.8rem, 7vw, 5.6rem);
+}
+body[data-page="home"] .hero-content .eyebrow{ justify-content:center; }
 body[data-page="home"] .hero p.lead{ max-width:720px; margin-left:auto; margin-right:auto; font-size:1.3rem; }
 body[data-page="home"] .hero-actions{ justify-content:center; }
 body[data-page="home"] .hero-actions .btn{ padding:20px 40px; font-size:1rem; }
