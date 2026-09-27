@@ -296,6 +296,15 @@ body:not([data-page="home"]) .site-header{ background: rgba(10,10,10,.92); backd
   opacity:.65; font-family: var(--font-heading); text-transform:uppercase; letter-spacing:.15em; font-size:.72rem;
 }
 .hero-signature{ display:block; margin: -6px 0 20px; font-size: 2.2rem; }
+
+body[data-page="home"] .hero{ align-items:center; }
+body[data-page="home"] .hero-content{ text-align:center; padding: 160px 0; }
+body[data-page="home"] .hero h1{ max-width:none; font-size: clamp(3.4rem, 10vw, 8.5rem); }
+body[data-page="home"] .hero p.lead{ max-width:720px; margin-left:auto; margin-right:auto; font-size:1.3rem; }
+body[data-page="home"] .hero-actions{ justify-content:center; }
+body[data-page="home"] .hero-actions .btn{ padding:20px 40px; font-size:1rem; }
+body[data-page="home"] .hero-sponsors{ justify-content:center; }
+body[data-page="home"] .hero-signature{ font-size: 3rem; }
 .hero-sponsors-logos{ align-items:center; opacity:1; }
 .hero-sponsors-logos span{ opacity:.65; }
 .collab-logos-img{ height: 40px; width:auto; }
