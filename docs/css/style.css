@@ -802,3 +802,19 @@ body{ padding-top:32px; }
   .post-layout{ grid-template-columns: 1fr; gap: 36px; }
   .post-aside{ position: static; }
 }
+
+/* ---------- Instagram: iconos ---------- */
+.ig-icon{ width:1em; height:1em; display:block; }
+.ig-badge{
+  position:absolute; top:16px; right:16px; width:42px; height:42px; border-radius:12px;
+  display:flex; align-items:center; justify-content:center; color:#fff; font-size:22px;
+  background: linear-gradient(45deg,#f9ce34 0%,#ee2a7b 50%,#6228d7 100%);
+  box-shadow: 0 8px 20px -6px rgba(0,0,0,.5); transition: transform var(--transition);
+}
+.site-tile:hover .ig-badge{ transform: scale(1.12) rotate(-6deg); }
+.ig-hero{
+  width:64px; height:64px; border-radius:18px; margin: 0 auto 22px; color:#fff; font-size:34px;
+  display:flex; align-items:center; justify-content:center;
+  background: linear-gradient(45deg,#f9ce34 0%,#ee2a7b 50%,#6228d7 100%);
+  box-shadow: 0 14px 30px -10px rgba(238,42,123,.6);
+}
