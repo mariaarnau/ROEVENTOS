@@ -778,3 +778,9 @@ body[data-page="home"] .hero-sponsors-logos span{ display:inline; }
 @media (max-width: 700px){
   .photo-strip img{ height:170px; width:230px; }
 }
+
+/* ---------- Blog: entrada ---------- */
+.post-title{ max-width: 900px; font-size: clamp(1.8rem, 4.5vw, 3rem); text-transform:none; letter-spacing:0; line-height:1.15; }
+.post-body{ max-width: 760px; }
+.post-body p{ font-size:1.08rem; line-height:1.75; color: rgba(255,255,255,.85); margin-bottom:1.3em; }
+.post-body .blog-more{ margin-top:24px; }
