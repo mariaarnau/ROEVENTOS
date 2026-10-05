@@ -13,7 +13,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "docs")
 OUT = os.path.join(ROOT, "produccion")
 SITE = "https://roeventos.com"
-EMAIL_DESTINO = "info@roeventos.com"   # <- destino de los formularios (enviar.php)
+EMAIL_DESTINO = "e.arnau@roeventos.com"   # <- destino de los formularios (enviar.php)
 TODAY = datetime.date.today().isoformat()
 
 # --------------------------------------------------------------------------

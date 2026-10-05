@@ -3,8 +3,8 @@
  * Receptor de los formularios de la web (contacto, eventos y CTA de la home).
  * Sin base de datos ni servicios externos: envía un correo desde el propio hosting.
  */
-const DESTINO = 'info@roeventos.com';     // ← dónde llegan los mensajes
-const REMITENTE = 'info@roeventos.com';    // ← debe ser un correo real del dominio (SPF/DKIM)
+const DESTINO = 'e.arnau@roeventos.com';     // ← dónde llegan los mensajes
+const REMITENTE = 'e.arnau@roeventos.com';    // ← debe ser un correo real del dominio (SPF/DKIM)
 
 function volver(string $origen, string $estado): void {
     // solo rutas internas, nunca URLs externas (evita open redirect)

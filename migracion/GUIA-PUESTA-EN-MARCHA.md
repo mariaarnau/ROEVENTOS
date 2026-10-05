@@ -30,7 +30,7 @@ Mejoras añadidas (la web antigua no las tenía): meta description en todas las 
    - Comprueba que la propiedad `roeventos.com` existe y cómo está verificada (DNS, archivo o etiqueta). Si fue con un **archivo `google….html`** en la raíz, hay que conservarlo (ver paso 3).
    - Exporta: *Rendimiento → páginas y consultas* (últimos 16 meses) y *Páginas → indexadas*. Sirve de referencia para comparar después.
 3. Anota qué **correos** (`info@`, `ro@`) existen en el hosting. No se tocan, pero conviene tenerlos a mano.
-4. Apunta dónde se envían hoy los mensajes del formulario de Contact Form 7 (ajustes del plugin) y confirma que `info@roeventos.com` es el destino que quieres. Se cambia en `migracion/enviar.php` (`DESTINO`).
+4. Apunta dónde se envían hoy los mensajes del formulario de Contact Form 7 (ajustes del plugin) y confirma que `e.arnau@roeventos.com` existe como casilla en el hosting (es el destino y el remitente de los avisos). Se cambia en `migracion/enviar.php` (`DESTINO`).
 
 ## Paso 2 · Probar en un subdominio (sin riesgo)
 
