@@ -311,7 +311,7 @@ with open(os.path.join(ROOT, "migracion/urls-antiguas.csv"), encoding="utf-8") a
         seen.add(src)
         rules.append((src.strip("/"), r["destino"]))
 rules.sort()
-exact = "\n".join(f"RewriteRule ^{re.escape(s)}/?$ {d} [R=301,L,NE]" for s, d in rules if s)
+exact = "\n".join(f"RewriteRule ^{re.escape(s)}/?$ https://roeventos.com{d} [R=301,L,NE]" for s, d in rules if s)
 htaccess = f"""# R&O Eventos — producción (generado por migracion/build.py)
 Options -Indexes
 DirectoryIndex index.html index.php
@@ -336,11 +336,11 @@ RewriteRule ^ - [L]
 {exact}
 
 # 4) Familias del WordPress sin ficha propia en la web nueva
-RewriteRule ^wp-sitemap[^/]*\\.xml$ /sitemap.xml [R=301,L]
-RewriteRule ^(category|tag|author|feed|comments)(/|$) /blog/ [R=301,L]
-RewriteRule ^(event|team|calendar|events|events_category)/ /eventos/ [R=301,L]
-RewriteRule ^portfolio-item/ /deportes/ [R=301,L]
-RewriteRule ^(portfolio|elements|shop|cart|checkout|my-account)(/|$) / [R=301,L]
+RewriteRule ^wp-sitemap[^/]*\\.xml$ https://roeventos.com/sitemap.xml [R=301,L]
+RewriteRule ^(category|tag|author|feed|comments)(/|$) https://roeventos.com/blog/ [R=301,L]
+RewriteRule ^(event|team|calendar|events|events_category)/ https://roeventos.com/eventos/ [R=301,L]
+RewriteRule ^portfolio-item/ https://roeventos.com/deportes/ [R=301,L]
+RewriteRule ^(portfolio|elements|shop|cart|checkout|my-account)(/|$) https://roeventos.com/ [R=301,L]
 </IfModule>
 
 <IfModule mod_deflate.c>
@@ -376,7 +376,7 @@ write(os.path.join(ROOT, "migracion/htaccess-PRUEBAS.txt"), pruebas)
 ng = ["# R&O Eventos — reglas nginx (solo si el hosting NO usa .htaccess). Generado por build.py",
       "# Pegar dentro del bloque server { } de roeventos.com", "",
       "error_page 404 /404.html;", "location / { try_files $uri $uri/ =404; }", ""]
-ng += [f"rewrite ^/{re.escape(s)}/?$ {d} permanent;" for s, d in rules if s]
+ng += [f"rewrite ^/{re.escape(s)}/?$ https://roeventos.com{d} permanent;" for s, d in rules if s]
 ng += ["", "rewrite ^/wp-sitemap[^/]*\\.xml$ /sitemap.xml permanent;",
        "rewrite ^/(category|tag|author|feed|comments)(/|$) /blog/ permanent;",
        "rewrite ^/(event|team|calendar|events|events_category)/ /eventos/ permanent;",
