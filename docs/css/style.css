@@ -831,3 +831,5 @@ body[data-page="home"] .hero-content .eyebrow{
   text-shadow: 0 0 14px rgba(255,255,255,.6), 0 0 3px rgba(255,255,255,.5);
 }
 body[data-page="home"] .hero-content .eyebrow::before{ background:#8f030e; }
+.post-text a{ color: var(--red-light); text-decoration: underline; text-underline-offset: 3px; }
+.post-text a:hover{ color: var(--white); }
