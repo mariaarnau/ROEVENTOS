@@ -1,0 +1,222 @@
+url_antigua,tipo,accion_propuesta,destino,nota
+https://roeventos.com/pagina-ejemplo/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/shop/,plantilla tienda (demo),301,/,"Contenido de plantilla, sin valor"
+https://roeventos.com/checkout/,plantilla tienda (demo),301,/,"Contenido de plantilla, sin valor"
+https://roeventos.com/,página principal,MANTENER misma URL,/,La URL no cambia: sin redirección
+https://roeventos.com/elements/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/headings/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/right-sidebar/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/deportes/,página principal,MANTENER misma URL,/deportes/,La URL no cambia: sin redirección
+https://roeventos.com/cycling-home/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/shop-home/,plantilla tienda (demo),301,/,"Contenido de plantilla, sin valor"
+https://roeventos.com/free-climbing-home/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/shop/3-columns/,plantilla tienda (demo),301,/,"Contenido de plantilla, sin valor"
+https://roeventos.com/shop/4-columns/,plantilla tienda (demo),301,/,"Contenido de plantilla, sin valor"
+https://roeventos.com/shop/full-width/,plantilla tienda (demo),301,/,"Contenido de plantilla, sin valor"
+https://roeventos.com/travel-agency/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/adventure-tours/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/surfing-home/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/conocenos/,página principal,MANTENER misma URL,/conocenos/,La URL no cambia: sin redirección
+https://roeventos.com/camping-home/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/contacto/,página principal,MANTENER misma URL,/contacto/,La URL no cambia: sin redirección
+https://roeventos.com/pricing-plans/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/our-services/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/our-team/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/left-sidebar/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/no-sidebar-2/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/landing/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/standard/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/gallery/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/gallery-joined/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/masonry/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/masonry-joined/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/two-columns/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/three-columns/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/three-columns-wide/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/four-columns-wide/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/four-columns/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/five-columns-wide/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/standard-overlay/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/slide-from-bottom/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/accordion/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/buttons/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/contact-form/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/tabs/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/countdown/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/clients/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/icon-with-text/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/testimonials/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/process/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/blog/,página principal,MANTENER misma URL,/blog/,La URL no cambia: sin redirección
+https://roeventos.com/elements/pricing-table/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/blog-list/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/counters/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/progress-bar/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/team/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/product-list/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/blockquote/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/columns/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/separators/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/dropcaps/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/highlights/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/section-title/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/custom-font/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/event-list-chequered/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/interactive-image-with-text/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/linked-image/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/booked-calendar/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/event-list-chequered/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/standard-event-list/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/image-gallery-slider/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/image-gallery/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/banner/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/calendar/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/call-to-action/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/number-with-text/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/background-text/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/elements/event-list-standard/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/portfolio/info-on-hover/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/eventos/,página principal,MANTENER misma URL,/eventos/,La URL no cambia: sin redirección
+https://roeventos.com/sample-page/,plantilla demo,301,/,Página de demostración del tema
+https://roeventos.com/cart/,plantilla tienda (demo),301,/,"Contenido de plantilla, sin valor"
+https://roeventos.com/my-account/,plantilla tienda (demo),301,/,"Contenido de plantilla, sin valor"
+https://roeventos.com/2023/01/01/la-valencia-basket-cup-estrenara-2023-en-lalqueria/,entrada de blog,DECIDIR,mantener URL o 301 a /blog/,Quitada del blog nuevo
+https://roeventos.com/2022/10/04/la-capital-del-turia-acogio-esta-semana-santa-la-valencia-soccer-cup/,entrada de blog,DECIDIR,mantener URL o 301 a /blog/,Quitada del blog nuevo
+https://roeventos.com/2022/09/21/basketball-tryouts-spain/,entrada de blog,DECIDIR,mantener URL o 301 a /blog/,Quitada del blog nuevo (Tryouts)
+https://roeventos.com/2022/11/01/valencia-internacional-cup-1er-premio-empren-esport/,entrada de blog,MANTENER misma URL,(se publica en la misma URL),Noticia que ya está en el blog nuevo
+https://roeventos.com/2023/01/27/confirmada-la-sede-de-marina-dor-para-el-desarrollo-de-los-torneos-de-junio-y-julio-de-ro-eventos-en-2023/,entrada de blog,DECIDIR,mantener URL o 301 a /blog/,Quitada del blog nuevo
+https://roeventos.com/2023/01/27/por-cuarto-ano-consecutivo-volvemos-a-ser-finalistas-de-los-premios-empren-esport/,entrada de blog,DECIDIR,mantener URL o 301 a /blog/,Quitada del blog nuevo
+https://roeventos.com/2023/03/01/nuestro-torneo-de-maxibaloncesto-internacional-premiado-con-el-premio-empren-esport-impulso/,entrada de blog,DECIDIR,mantener URL o 301 a /blog/,Quitada del blog nuevo
+https://roeventos.com/2023/04/01/semana-santa-de-records-deportivos-en-valencia/,entrada de blog,DECIDIR,mantener URL o 301 a /blog/,Quitada del blog nuevo
+https://roeventos.com/portfolio-item/big-masonry/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/small-image/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/big-image/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/small-masonry/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/full-width-images/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/big-slider/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/small-slider/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/big-gallery/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/small-gallery/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/tokyo-fishing-days/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/camp-around/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/sailing-around/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/hiking-on-cold-days/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/mountin-biking/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/polar-world/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/mountain-track/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/surfing/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/deep-sea-explore/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/beyond-limits/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/breathe-and-inhale/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/need-for-nature/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/mountains-trail/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/national-forest/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/full-width-image/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/spring-shooting/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/spring-is-coming/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/hiking-shooting/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/just-blue/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/warming-hiking/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/hiking-on-cold-days-2/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/breathe-and-inhales/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/basket/,portfolio real,301,/portfolio-basket/,Contenido real de deportes
+https://roeventos.com/portfolio-item/reading-nature/,portfolio demo,301,/deportes/,Demo del tema
+https://roeventos.com/portfolio-item/volleyball/,portfolio real,301,/portfolio-voley/,Contenido real de deportes
+https://roeventos.com/portfolio-item/futbol/,portfolio real,301,/portfolio-futbol/,Contenido real de deportes
+https://roeventos.com/portfolio-item/padel/,portfolio real,301,/deportes/,Contenido real de deportes
+https://roeventos.com/portfolio-item/futsal/,portfolio real,301,/portfolio-futsal/,Contenido real de deportes
+https://roeventos.com/portfolio-item/resultados-voley-cup/,portfolio real,301,/deportes/,Contenido real de deportes
+https://roeventos.com/events/walking-paradise-tenerife/,evento demo,301,/eventos/,Demo del tema
+https://roeventos.com/events/1er-premio-empren-esport/,evento real,301,/2022/11/01/valencia-internacional-cup-1er-premio-empren-esport/,
+https://roeventos.com/events/mountain-skiing-on-alps/,evento demo,301,/eventos/,Demo del tema
+https://roeventos.com/events/surfing-in-ocean-beach/,evento demo,301,/eventos/,Demo del tema
+https://roeventos.com/events/circular-walk-vilaflor/,evento demo,301,/eventos/,Demo del tema
+https://roeventos.com/events/valencia-basket-cup/,evento real,301,/eventos/,
+https://roeventos.com/events/valencia-soccer-cup/,evento real,301,/eventos/,
+https://roeventos.com/events/voley-cup/,evento real,301,/eventos/,
+https://roeventos.com/events/futsal-cup/,evento real,301,/eventos/,
+https://roeventos.com/events/decima-edicion-de-la-copa-colegial/,evento real,301,/eventos/,
+https://roeventos.com/event/club-volei-a7-a-vs-nou-volei-alzira/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/club-volei-a7-b-vs-son-servera-b/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/son-servera-a-vs-club-voleibol-vall-dhebron/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/miramadrid-a-vs-club-voleibol-vall-dhebron/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/cv-arenas-de-gandia-vs-son-servera-a/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/miramadrid-c-vs-cv-mediterraneo-mermaids/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/miramadrid-d-vs-son-servera-b/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/esdecar-cv-vs-mediterraneo-shark/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/club-voleibol-vall-dhebron-vs-vilanova/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/club-voleibol-vall-dhebron-vs-cv-mediterraneo-jellyfish/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/nou-volei-alzira-vs-son-servera-c/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/son-servera-b-cv-mediterraneo-kraken/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/cv-mediterraneo-jellyfish-vs-son-servera-a/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/son-servera-c-vs-club-volei-a7-a/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/cv-mediterraneo-kraken-vs-club-volei-a7-b/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/cv-mediterraneo-shark-vs-club-voleibol-vall-dhebron/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/son-servera-b-vs-esdecar-b/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/club-voleibol-vall-dhebron-vs-cv-mediterraneo-dolphins/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/esdecar-a-vs-cv-mediterraneo-mermaids/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/son-servera-a-vs-miramadrid-b/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/esdecar-b-vs-miramadrid-d/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/semifinales-2/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/cv-mediterraneo-dolphins-vs-miramadrid-a/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/esdecar-a-vs-miramadrid-c/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/miramadrid-b-vs-cv-arenas-de-gandia/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/semifinales/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/cv-mediterraneo-shark-vs-vilanova/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/semifinales-3/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/semifinales-4/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/infantil-consolacion-4/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/infantil-consolacion-3/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/infantil-consolacion-2/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/infantil-consolacion/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/final-juvenil/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/juvenil-3o-y-4o-puesto/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/cadete-consolacion/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/cadete-consolacion-2/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/cadete-consolacion-4/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/final-cadete/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/event/final-infantil/,partido (SportsPress),301,/eventos/,Resultados Voley Cup antiguos; se podrían archivar
+https://roeventos.com/team/cv-arenas-de-gandia/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/miramadrid-b/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/son-servera-a/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/miramadrid-a/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/cv-mediterraneo-dolphins/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/club-voleibol-vall-dhebron/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/miramadrid-c/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/esdecar-a/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/cv-mediterraneo-mermaids/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/miramadrid-d/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/son-servera-b/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/esdecar-b/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/club-volei-a7-b/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/son-servera-b-2/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/cv-mediterraneo-kraken/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/son-servera-a-2/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/cv-mediterraneo-jellyfish/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/club-voleibol-vall-dhebron-2/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/club-volei-a7-a/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/son-servera-c/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/nou-volei-alzira/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/esdecar/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/cv-mediterraneo-shark/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/club-voleibol-vall-dhebron-3/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/team/vilanova/,equipo (SportsPress),301,/eventos/,
+https://roeventos.com/calendar/infantil/,calendario (SportsPress),301,/eventos/,
+https://roeventos.com/calendar/cadete/,calendario (SportsPress),301,/eventos/,
+https://roeventos.com/calendar/juvenil/,calendario (SportsPress),301,/eventos/,
+https://roeventos.com/category/basket/,categoría/etiqueta,301,/blog/,
+https://roeventos.com/category/futbol/,categoría/etiqueta,301,/blog/,
+https://roeventos.com/category/volley/,categoría/etiqueta,301,/blog/,
+https://roeventos.com/category/futsal/,categoría/etiqueta,301,/blog/,
+https://roeventos.com/tag/extreme/,categoría/etiqueta,301,/blog/,
+https://roeventos.com/tag/sports/,categoría/etiqueta,301,/blog/,
+https://roeventos.com/tag/basket/,categoría/etiqueta,301,/blog/,
+https://roeventos.com/events_category/hiking/,categoría/etiqueta,301,/blog/,
+https://roeventos.com/events_category/tracking/,categoría/etiqueta,301,/blog/,
+https://roeventos.com/events_category/basket/,categoría/etiqueta,301,/blog/,
+https://roeventos.com/events_category/volleyball/,categoría/etiqueta,301,/blog/,
+https://roeventos.com/events_category/futbol/,categoría/etiqueta,301,/blog/,
+https://roeventos.com/events_category/futsal/,categoría/etiqueta,301,/blog/,
+https://roeventos.com/author/boscoan/,autor,301,/blog/,
+https://roeventos.com/feed/,feed RSS,301,/blog/,"Si se quiere, se puede mantener un RSS"
