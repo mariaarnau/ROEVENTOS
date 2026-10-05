@@ -1,4 +1,4 @@
-url_antigua,tipo,accion_propuesta,destino,nota
+url_antigua,tipo,accion_final,destino,nota
 https://roeventos.com/pagina-ejemplo/,plantilla demo,301,/,Página de demostración del tema
 https://roeventos.com/shop/,plantilla tienda (demo),301,/,"Contenido de plantilla, sin valor"
 https://roeventos.com/checkout/,plantilla tienda (demo),301,/,"Contenido de plantilla, sin valor"
@@ -81,14 +81,14 @@ https://roeventos.com/eventos/,página principal,MANTENER misma URL,/eventos/,La
 https://roeventos.com/sample-page/,plantilla demo,301,/,Página de demostración del tema
 https://roeventos.com/cart/,plantilla tienda (demo),301,/,"Contenido de plantilla, sin valor"
 https://roeventos.com/my-account/,plantilla tienda (demo),301,/,"Contenido de plantilla, sin valor"
-https://roeventos.com/2023/01/01/la-valencia-basket-cup-estrenara-2023-en-lalqueria/,entrada de blog,DECIDIR,mantener URL o 301 a /blog/,Quitada del blog nuevo
-https://roeventos.com/2022/10/04/la-capital-del-turia-acogio-esta-semana-santa-la-valencia-soccer-cup/,entrada de blog,DECIDIR,mantener URL o 301 a /blog/,Quitada del blog nuevo
-https://roeventos.com/2022/09/21/basketball-tryouts-spain/,entrada de blog,DECIDIR,mantener URL o 301 a /blog/,Quitada del blog nuevo (Tryouts)
-https://roeventos.com/2022/11/01/valencia-internacional-cup-1er-premio-empren-esport/,entrada de blog,MANTENER misma URL,(se publica en la misma URL),Noticia que ya está en el blog nuevo
-https://roeventos.com/2023/01/27/confirmada-la-sede-de-marina-dor-para-el-desarrollo-de-los-torneos-de-junio-y-julio-de-ro-eventos-en-2023/,entrada de blog,DECIDIR,mantener URL o 301 a /blog/,Quitada del blog nuevo
-https://roeventos.com/2023/01/27/por-cuarto-ano-consecutivo-volvemos-a-ser-finalistas-de-los-premios-empren-esport/,entrada de blog,DECIDIR,mantener URL o 301 a /blog/,Quitada del blog nuevo
-https://roeventos.com/2023/03/01/nuestro-torneo-de-maxibaloncesto-internacional-premiado-con-el-premio-empren-esport-impulso/,entrada de blog,DECIDIR,mantener URL o 301 a /blog/,Quitada del blog nuevo
-https://roeventos.com/2023/04/01/semana-santa-de-records-deportivos-en-valencia/,entrada de blog,DECIDIR,mantener URL o 301 a /blog/,Quitada del blog nuevo
+https://roeventos.com/2023/01/01/la-valencia-basket-cup-estrenara-2023-en-lalqueria/,entrada de blog,301,/blog/vbc-inscripciones/,Noticia retirada del blog nuevo: se redirige a la página más relacionada
+https://roeventos.com/2022/10/04/la-capital-del-turia-acogio-esta-semana-santa-la-valencia-soccer-cup/,entrada de blog,301,/portfolio-item/futbol/,Noticia retirada del blog nuevo: se redirige a la página más relacionada
+https://roeventos.com/2022/09/21/basketball-tryouts-spain/,entrada de blog,301,/blog/training-stages-2026/,Noticia retirada del blog nuevo: se redirige a la página más relacionada
+https://roeventos.com/2022/11/01/valencia-internacional-cup-1er-premio-empren-esport/,entrada de blog,MANTENER misma URL,/2022/11/01/valencia-internacional-cup-1er-premio-empren-esport/,Noticia que ya está en el blog nuevo
+https://roeventos.com/2023/01/27/confirmada-la-sede-de-marina-dor-para-el-desarrollo-de-los-torneos-de-junio-y-julio-de-ro-eventos-en-2023/,entrada de blog,301,/eventos/,Noticia retirada del blog nuevo: se redirige a la página más relacionada
+https://roeventos.com/2023/01/27/por-cuarto-ano-consecutivo-volvemos-a-ser-finalistas-de-los-premios-empren-esport/,entrada de blog,301,/2022/11/01/valencia-internacional-cup-1er-premio-empren-esport/,Noticia retirada del blog nuevo: se redirige a la página más relacionada
+https://roeventos.com/2023/03/01/nuestro-torneo-de-maxibaloncesto-internacional-premiado-con-el-premio-empren-esport-impulso/,entrada de blog,301,/2022/11/01/valencia-internacional-cup-1er-premio-empren-esport/,Noticia retirada del blog nuevo: se redirige a la página más relacionada
+https://roeventos.com/2023/04/01/semana-santa-de-records-deportivos-en-valencia/,entrada de blog,301,/blog/vic-diez-paises/,Noticia retirada del blog nuevo: se redirige a la página más relacionada
 https://roeventos.com/portfolio-item/big-masonry/,portfolio demo,301,/deportes/,Demo del tema
 https://roeventos.com/portfolio-item/small-image/,portfolio demo,301,/deportes/,Demo del tema
 https://roeventos.com/portfolio-item/big-image/,portfolio demo,301,/deportes/,Demo del tema
@@ -120,12 +120,12 @@ https://roeventos.com/portfolio-item/just-blue/,portfolio demo,301,/deportes/,De
 https://roeventos.com/portfolio-item/warming-hiking/,portfolio demo,301,/deportes/,Demo del tema
 https://roeventos.com/portfolio-item/hiking-on-cold-days-2/,portfolio demo,301,/deportes/,Demo del tema
 https://roeventos.com/portfolio-item/breathe-and-inhales/,portfolio demo,301,/deportes/,Demo del tema
-https://roeventos.com/portfolio-item/basket/,portfolio real,301,/portfolio-basket/,Contenido real de deportes
+https://roeventos.com/portfolio-item/basket/,portfolio real,MANTENER misma URL,/portfolio-item/basket/,La ficha existe en la web nueva con la misma URL
 https://roeventos.com/portfolio-item/reading-nature/,portfolio demo,301,/deportes/,Demo del tema
-https://roeventos.com/portfolio-item/volleyball/,portfolio real,301,/portfolio-voley/,Contenido real de deportes
-https://roeventos.com/portfolio-item/futbol/,portfolio real,301,/portfolio-futbol/,Contenido real de deportes
+https://roeventos.com/portfolio-item/volleyball/,portfolio real,MANTENER misma URL,/portfolio-item/volleyball/,La ficha existe en la web nueva con la misma URL
+https://roeventos.com/portfolio-item/futbol/,portfolio real,MANTENER misma URL,/portfolio-item/futbol/,La ficha existe en la web nueva con la misma URL
 https://roeventos.com/portfolio-item/padel/,portfolio real,301,/deportes/,Contenido real de deportes
-https://roeventos.com/portfolio-item/futsal/,portfolio real,301,/portfolio-futsal/,Contenido real de deportes
+https://roeventos.com/portfolio-item/futsal/,portfolio real,MANTENER misma URL,/portfolio-item/futsal/,La ficha existe en la web nueva con la misma URL
 https://roeventos.com/portfolio-item/resultados-voley-cup/,portfolio real,301,/deportes/,Contenido real de deportes
 https://roeventos.com/events/walking-paradise-tenerife/,evento demo,301,/eventos/,Demo del tema
 https://roeventos.com/events/1er-premio-empren-esport/,evento real,301,/2022/11/01/valencia-internacional-cup-1er-premio-empren-esport/,
