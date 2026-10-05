@@ -818,3 +818,16 @@ body{ padding-top:32px; }
   background: linear-gradient(45deg,#f9ce34 0%,#ee2a7b 50%,#6228d7 100%);
   box-shadow: 0 14px 30px -10px rgba(238,42,123,.6);
 }
+
+/* ---------- Hero Home: firma y frase superior ---------- */
+body[data-page="home"] .hero-signature{
+  font-family: 'Kaushan Script', var(--font-script);
+  font-style: normal; font-weight: 400;
+  letter-spacing: .01em;
+  text-shadow: 0 4px 24px rgba(0,0,0,.35);
+}
+body[data-page="home"] .hero-content .eyebrow{
+  color: #8f030e; font-size: .98rem; letter-spacing: .2em;
+  text-shadow: 0 0 14px rgba(255,255,255,.6), 0 0 3px rgba(255,255,255,.5);
+}
+body[data-page="home"] .hero-content .eyebrow::before{ background:#8f030e; }
